@@ -2,15 +2,17 @@
   "name": "webuyg2023",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "devStart": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mysql": "^2.18.1",
     "nodemon": "^3.0.1"
   }
 }
