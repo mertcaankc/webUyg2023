@@ -1,5 +1,4 @@
 const express = require('express')
-const db_connect=require('./db/mysql_connect')
 const router=require('./routers')
 require('dotenv/config')
 const app = express()
